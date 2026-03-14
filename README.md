@@ -5,8 +5,9 @@
 
 <!-- Typing intro -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Gowun+Dodum&weight=700&size=26&pause=1200&color=F5A623&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+minju+👋;Everyone+calls+me+Manju+🍞;" alt="Typing SVG" />
-
+  <a href="https://github.com/deli-minju">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Gowun+Dodum&weight=700&size=26&pause=1200&color=F5A623&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+minju+%F0%9F%91%8B;Everyone+calls+me+Manju+%F0%9F%8D%9E;" alt="Typing SVG" />
+  </a>
 </p>
 
 <br/>
