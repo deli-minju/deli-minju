@@ -96,12 +96,12 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=deli-minju&show_icons=true&theme=solarized-light&icon_color=F5A623&title_color=F5A623&border_color=FFD166&bg_color=fffdf5&hide_border=false&include_all_commits=true&count_private=true" />
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deli-minju&layout=compact&theme=solarized-light&title_color=F5A623&border_color=FFD166&bg_color=fffdf5" />
+  <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=deli-minju&show_icons=true&title_color=F5A623&icon_color=F5A623&text_color=586069&bg_color=fffdf5&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=deli-minju&layout=compact&title_color=F5A623&text_color=586069&bg_color=fffdf5&hide_border=true" alt="Top Languages" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deli-minju&theme=solarized-light&ring=F5A623&fire=FFD166&currStreakLabel=F5A623&border=FFD166&background=fffdf5" />
+  <img src="https://streak-stats.demolab.com/?user=deli-minju&theme=solarized-light&ring=F5A623&fire=FFD166&currStreakLabel=F5A623&background=fffdf5&hide_border=true" alt="GitHub Streak" />
 </div>
 
 <br/>
