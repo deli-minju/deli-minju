@@ -61,11 +61,14 @@
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
-**Database & Tools**
+**Database & Infrastructure**
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![PostGIS](https://img.shields.io/badge/PostGIS-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 </div>
 
@@ -81,10 +84,10 @@
 👥 2025.03 – 2025.12  |  Dept. Dev Club · Frontend Part      |  LookToday        |  React
 💻 2025.10 – 2025.12  |  Personal Project                    |  LimeLight (Web)  |  PHP · MySQL · HTML · CSS · JS
 💻 2025.10 – 2025.12  |  Personal Project                    |  LimeLight (App)  |  Android · PHP · MySQL
-🔥 2026.01 –          |  Dept. Dev Club · Backend Committee                      |  Node.js
+🔥 2026.01 –          |  Dept. Dev Club · Backend Committee  |  DonWorry         |  Node.js
 🔬 2026.02 –          |  VCMI Lab. Undergraduate Researcher                      |  Visual Computing & Medical Imaging Lab.
 👥 2026.03 –          |  UMC 10th · Spring Boot Part
-🎓 2026.03 –          |  Graduation Project                                      |  Backend · AI
+🎓 2026.03 –          |  Graduation Project                  |  GACHI            |  Spring Boot · PostgreSQL · Python
 ```
 
 <br/>
