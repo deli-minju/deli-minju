@@ -131,13 +131,17 @@ function escapeXml(value) {
     .replaceAll('"', "&quot;");
 }
 
-function cardStyles() {
+const cardThemes = {
+  light: { primary: "#24292F", secondary: "#57606A", remainder: "#D0D7DE" },
+  dark: { primary: "#F0F6FC", secondary: "#9DA7B3", remainder: "#30363D" },
+};
+
+function cardStyles(theme) {
   return `<style>
-    .title{font:600 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#24292f}
-    .value{font:600 23px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#24292f}
-    .label{font:12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#57606a}
-    .small{font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#57606a}
-    @media (prefers-color-scheme:dark){.title,.value{fill:#f0f6fc}.label,.small{fill:#9da7b3}}
+    .title{font:600 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:${theme.primary}}
+    .value{font:600 23px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:${theme.primary}}
+    .label{font:12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:${theme.secondary}}
+    .small{font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:${theme.secondary}}
   </style>`;
 }
 
@@ -171,32 +175,39 @@ async function generateLanguages() {
   const entries = allEntries.slice(0, 5);
   const total = allEntries.reduce((sum, [, changes]) => sum + changes, 0);
   if (total === 0) throw new Error("No authored code changes were found");
-  let offset = 0;
-  const bars = entries.map(([language, changes]) => {
-    const width = (changes / total) * 288;
-    const bar = `<rect x="${16 + offset}" y="43" width="${width.toFixed(2)}" height="8" fill="${colors[language] || "#8C959F"}"/>`;
-    offset += width;
-    return bar;
-  }).join("");
-  const remainder = offset < 288
-    ? `<rect x="${16 + offset}" y="43" width="${(288 - offset).toFixed(2)}" height="8" fill="#D0D7DE"/>`
-    : "";
-  const rows = entries.map(([language, changes], index) => {
-    const y = 76 + index * 20;
-    const percent = ((changes / total) * 100).toFixed(1);
-    return `<circle cx="21" cy="${y - 4}" r="4" fill="${colors[language] || "#8C959F"}"/>
-      <text x="32" y="${y}" class="label">${escapeXml(language)}</text>
-      <text x="304" y="${y}" text-anchor="end" class="small">${percent}%</text>`;
-  }).join("");
+  function render(theme) {
+    let offset = 0;
+    const bars = entries.map(([language, changes]) => {
+      const width = (changes / total) * 288;
+      const bar = `<rect x="${16 + offset}" y="43" width="${width.toFixed(2)}" height="8" fill="${colors[language] || "#8C959F"}"/>`;
+      offset += width;
+      return bar;
+    }).join("");
+    const remainder = offset < 288
+      ? `<rect x="${16 + offset}" y="43" width="${(288 - offset).toFixed(2)}" height="8" fill="${theme.remainder}"/>`
+      : "";
+    const rows = entries.map(([language, changes], index) => {
+      const y = 76 + index * 20;
+      const percent = ((changes / total) * 100).toFixed(1);
+      return `<circle cx="21" cy="${y - 4}" r="4" fill="${colors[language] || "#8C959F"}"/>
+        <text x="32" y="${y}" class="label">${escapeXml(language)}</text>
+        <text x="304" y="${y}" text-anchor="end" class="small">${percent}%</text>`;
+    }).join("");
 
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="170" viewBox="0 0 320 170" role="img" aria-label="Most used languages">
-    ${cardStyles()}
-    <text x="16" y="22" class="title">Most Used Languages</text>
-    <text x="16" y="39" class="small">Authored code changes · public commits</text>
-    <g transform="translate(0 9)">${bars}${remainder}</g>
-    <g>${rows}</g>
-  </svg>\n`;
-  return { svg, state };
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="170" viewBox="0 0 320 170" role="img" aria-label="Most used languages">
+      ${cardStyles(theme)}
+      <text x="16" y="22" class="title">Most Used Languages</text>
+      <text x="16" y="39" class="small">Authored code changes · public commits</text>
+      <g transform="translate(0 9)">${bars}${remainder}</g>
+      <g>${rows}</g>
+    </svg>\n`;
+  }
+
+  return {
+    lightSvg: render(cardThemes.light),
+    darkSvg: render(cardThemes.dark),
+    state,
+  };
 }
 
 function koreaDate() {
@@ -238,24 +249,33 @@ async function generateStreak() {
     index -= 1;
   }
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="170" viewBox="0 0 320 170" role="img" aria-label="GitHub contribution streak">
-    ${cardStyles()}
-    <text x="16" y="25" class="title">Contribution Streak</text>
-    <text x="53" y="88" text-anchor="middle" class="value">${calendar.totalContributions.toLocaleString("en-US")}</text>
-    <text x="53" y="112" text-anchor="middle" class="label">Contributions</text>
-    <circle cx="160" cy="82" r="34" fill="none" stroke="#EAB308" stroke-width="4"/>
-    <text x="160" y="89" text-anchor="middle" class="value">${current}</text>
-    <text x="160" y="132" text-anchor="middle" class="label">Current Streak</text>
-    <text x="267" y="88" text-anchor="middle" class="value">${longest}</text>
-    <text x="267" y="112" text-anchor="middle" class="label">Longest Streak</text>
-    <text x="160" y="158" text-anchor="middle" class="small">Updated daily · Asia/Seoul</text>
-  </svg>\n`;
+  function render(theme) {
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="170" viewBox="0 0 320 170" role="img" aria-label="GitHub contribution streak">
+      ${cardStyles(theme)}
+      <text x="16" y="25" class="title">Contribution Streak</text>
+      <text x="53" y="88" text-anchor="middle" class="value">${calendar.totalContributions.toLocaleString("en-US")}</text>
+      <text x="53" y="112" text-anchor="middle" class="label">Contributions</text>
+      <circle cx="160" cy="82" r="34" fill="none" stroke="#EAB308" stroke-width="4"/>
+      <text x="160" y="89" text-anchor="middle" class="value">${current}</text>
+      <text x="160" y="132" text-anchor="middle" class="label">Current Streak</text>
+      <text x="267" y="88" text-anchor="middle" class="value">${longest}</text>
+      <text x="267" y="112" text-anchor="middle" class="label">Longest Streak</text>
+      <text x="160" y="158" text-anchor="middle" class="small">Updated daily · Asia/Seoul</text>
+    </svg>\n`;
+  }
+
+  return {
+    lightSvg: render(cardThemes.light),
+    darkSvg: render(cardThemes.dark),
+  };
 }
 
 await mkdir("profile", { recursive: true });
-const [languageResult, streak] = await Promise.all([generateLanguages(), generateStreak()]);
+const [languageResult, streakResult] = await Promise.all([generateLanguages(), generateStreak()]);
 await Promise.all([
-  writeFile("profile/top-languages.svg", languageResult.svg),
+  writeFile("profile/top-languages.svg", languageResult.lightSvg),
+  writeFile("profile/top-languages-dark.svg", languageResult.darkSvg),
   writeFile(languageStatePath, `${JSON.stringify(languageResult.state, null, 2)}\n`),
-  writeFile("profile/streak.svg", streak),
+  writeFile("profile/streak.svg", streakResult.lightSvg),
+  writeFile("profile/streak-dark.svg", streakResult.darkSvg),
 ]);
