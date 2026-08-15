@@ -1,12 +1,10 @@
 <!-- Header · GitHub light/dark theme-aware -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=blur&color=0%3AFFFDF2%2C50%3AFFF3C4%2C100%3AFFE69A&height=180&section=header&text=minju.log&fontSize=46&fontColor=24292F&animation=fadeIn&fontAlignY=42&desc=probably%20building%20something.&descSize=17&descAlignY=65#gh-light-mode-only" alt="minju.log — probably building something." />
-<img width="100%" src="https://capsule-render.vercel.app/api?type=blur&color=0%3A0D1117%2C50%3A1E4773%2C100%3A388BFD&height=180&section=header&text=minju.log&fontSize=46&fontColor=F0F6FC&animation=fadeIn&fontAlignY=42&desc=probably%20building%20something.&descSize=17&descAlignY=65#gh-dark-mode-only" alt="minju.log — probably building something." />
+![minju.log — probably building something.](https://capsule-render.vercel.app/api?type=blur&color=0%3AFFFDF2%2C50%3AFFF3C4%2C100%3AFFE69A&height=180&section=header&text=minju.log&fontSize=46&fontColor=24292F&animation=fadeIn&fontAlignY=42&desc=probably%20building%20something.&descSize=17&descAlignY=65#gh-light-mode-only)
+![minju.log — probably building something.](https://capsule-render.vercel.app/api?type=blur&color=0%3A0D1117%2C50%3A1E4773%2C100%3A388BFD&height=180&section=header&text=minju.log&fontSize=46&fontColor=F0F6FC&animation=fadeIn&fontAlignY=42&desc=probably%20building%20something.&descSize=17&descAlignY=65#gh-dark-mode-only)
 
 <!-- 3D Contributions · Northern Hemisphere season -->
-<div align="center">
-  <img width="100%" src="./profile-3d-contrib/profile-season-animate.svg#gh-light-mode-only" alt="3D contribution calendar" />
-  <img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg#gh-dark-mode-only" alt="3D contribution calendar" />
-</div>
+![3D contribution calendar](./profile-3d-contrib/profile-season-animate.svg#gh-light-mode-only)
+![3D contribution calendar](./profile-3d-contrib/profile-night-rainbow.svg#gh-dark-mode-only)
 
 <br/><br/>
 
@@ -56,14 +54,10 @@
 
 <br/>
 
-## <img src="./assets/graph.svg#gh-light-mode-only" width="22" height="22" align="middle" alt="" /><img src="./assets/graph-dark.svg#gh-dark-mode-only" width="22" height="22" align="middle" alt="" /> GitHub Stats
+## ![](./assets/graph.svg#gh-light-mode-only)![](./assets/graph-dark.svg#gh-dark-mode-only) GitHub Stats
 
-<div align="center">
-  <img width="48%" src="./profile/top-languages.svg#gh-light-mode-only" alt="Top Languages" />
-  <img width="48%" src="./profile/streak.svg#gh-light-mode-only" alt="GitHub Streak" />
-  <img width="48%" src="./profile/top-languages-dark.svg#gh-dark-mode-only" alt="Top Languages" />
-  <img width="48%" src="./profile/streak-dark.svg#gh-dark-mode-only" alt="GitHub Streak" />
-</div>
+![GitHub statistics](./profile/stats.svg#gh-light-mode-only)
+![GitHub statistics](./profile/stats-dark.svg#gh-dark-mode-only)
 
 <br/>
 
@@ -71,7 +65,7 @@
 
 <div align="center">
   <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=deli-minju&utm_content=farm">
-    <img src="https://render.gitanimals.org/farms/deli-minju" width="700" height="300" alt="gitanimals farm"/>
+    <img src="https://render.gitanimals.org/farms/deli-minju" width="100%" alt="gitanimals farm"/>
   </a>
 </div>
 

@@ -35,8 +35,6 @@ const extensions = new Map([
   [".sh", "Shell"], [".bash", "Shell"], [".zsh", "Shell"], [".sql", "SQL"],
 ]);
 
-if (!token) throw new Error("GH_TOKEN is required");
-
 const headers = {
   Accept: "application/vnd.github+json",
   Authorization: `Bearer ${token}`,
@@ -143,6 +141,19 @@ function cardStyles(theme) {
     .label{font:12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:${theme.secondary}}
     .small{font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:${theme.secondary}}
   </style>`;
+}
+
+function svgBody(svg) {
+  return svg
+    .replace(/^<svg[^>]*>/, "")
+    .replace(/<\/svg>\s*$/, "");
+}
+
+function combineCards(languageSvg, streakSvg) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="960" height="247" viewBox="0 0 660 170" role="img" aria-label="GitHub statistics">
+    <g>${svgBody(languageSvg)}</g>
+    <g transform="translate(340 0)">${svgBody(streakSvg)}</g>
+  </svg>\n`;
 }
 
 async function generateLanguages() {
@@ -271,11 +282,28 @@ async function generateStreak() {
 }
 
 await mkdir("profile", { recursive: true });
-const [languageResult, streakResult] = await Promise.all([generateLanguages(), generateStreak()]);
-await Promise.all([
-  writeFile("profile/top-languages.svg", languageResult.lightSvg),
-  writeFile("profile/top-languages-dark.svg", languageResult.darkSvg),
-  writeFile(languageStatePath, `${JSON.stringify(languageResult.state, null, 2)}\n`),
-  writeFile("profile/streak.svg", streakResult.lightSvg),
-  writeFile("profile/streak-dark.svg", streakResult.darkSvg),
-]);
+
+if (process.env.COMPOSE_EXISTING === "1") {
+  const [languagesLight, languagesDark, streakLight, streakDark] = await Promise.all([
+    readFile("profile/top-languages.svg", "utf8"),
+    readFile("profile/top-languages-dark.svg", "utf8"),
+    readFile("profile/streak.svg", "utf8"),
+    readFile("profile/streak-dark.svg", "utf8"),
+  ]);
+  await Promise.all([
+    writeFile("profile/stats.svg", combineCards(languagesLight, streakLight)),
+    writeFile("profile/stats-dark.svg", combineCards(languagesDark, streakDark)),
+  ]);
+} else {
+  if (!token) throw new Error("GH_TOKEN is required");
+  const [languageResult, streakResult] = await Promise.all([generateLanguages(), generateStreak()]);
+  await Promise.all([
+    writeFile("profile/top-languages.svg", languageResult.lightSvg),
+    writeFile("profile/top-languages-dark.svg", languageResult.darkSvg),
+    writeFile(languageStatePath, `${JSON.stringify(languageResult.state, null, 2)}\n`),
+    writeFile("profile/streak.svg", streakResult.lightSvg),
+    writeFile("profile/streak-dark.svg", streakResult.darkSvg),
+    writeFile("profile/stats.svg", combineCards(languageResult.lightSvg, streakResult.lightSvg)),
+    writeFile("profile/stats-dark.svg", combineCards(languageResult.darkSvg, streakResult.darkSvg)),
+  ]);
+}
