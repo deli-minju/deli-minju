@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="180" viewBox="0 0 854 180" role="img" aria-label="minju.log — probably building something.">
+  <style>
+    .title,.desc{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:#F0F6FC;animation:fadeIn 1.2s ease-in-out forwards}.title{font-size:46px;font-weight:700}.desc{font-size:17px;font-weight:500}@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+  </style>
+  <defs>
+    <linearGradient id="glow" x1="0" x2="1"><stop stop-color="#0D1117"/><stop offset=".5" stop-color="#1E4773"/><stop offset="1" stop-color="#388BFD"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <circle cx="50%" cy="50%" r="45" fill="url(#glow)" opacity=".2" filter="url(#blur)"/>
+  <circle cx="45%" cy="50%" r="54" fill="url(#glow)" opacity=".3" filter="url(#blur)"><animate attributeName="cx" values="45%;50%;55%;50%;45%" dur="30s" repeatCount="indefinite"/></circle>
+  <circle cx="60%" cy="50%" r="50" fill="url(#glow)" opacity=".15" filter="url(#blur)"><animate attributeName="cx" values="60%;50%;40%;50%;60%" dur="15s" repeatCount="indefinite"/></circle>
+  <text x="50%" y="42%" text-anchor="middle" dominant-baseline="middle" class="title">minju.log</text>
+  <text x="50%" y="65%" text-anchor="middle" dominant-baseline="middle" class="desc">probably building something.</text>
+</svg>

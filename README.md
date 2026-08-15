@@ -1,6 +1,6 @@
 <!-- Header · GitHub light/dark theme-aware -->
-![minju.log — probably building something.](https://capsule-render.vercel.app/api?type=blur&color=0%3AFFFDF2%2C50%3AFFF3C4%2C100%3AFFE69A&height=180&section=header&text=minju.log&fontSize=46&fontColor=24292F&animation=fadeIn&fontAlignY=42&desc=probably%20building%20something.&descSize=17&descAlignY=65#gh-light-mode-only)
-![minju.log — probably building something.](https://capsule-render.vercel.app/api?type=blur&color=0%3A0D1117%2C50%3A1E4773%2C100%3A388BFD&height=180&section=header&text=minju.log&fontSize=46&fontColor=F0F6FC&animation=fadeIn&fontAlignY=42&desc=probably%20building%20something.&descSize=17&descAlignY=65#gh-dark-mode-only)
+![minju.log — probably building something.](./assets/header-light.svg#gh-light-mode-only)
+![minju.log — probably building something.](./assets/header-dark.svg#gh-dark-mode-only)
 
 <!-- 3D Contributions · Northern Hemisphere season -->
 ![3D contribution calendar](./profile-3d-contrib/profile-season-animate.svg#gh-light-mode-only)
@@ -54,7 +54,7 @@
 
 <br/>
 
-## ![](./assets/graph.svg#gh-light-mode-only)![](./assets/graph-dark.svg#gh-dark-mode-only) GitHub Stats
+## ▂▅▇ GitHub Stats
 
 ![GitHub statistics](./profile/stats.svg#gh-light-mode-only)
 ![GitHub statistics](./profile/stats-dark.svg#gh-dark-mode-only)
