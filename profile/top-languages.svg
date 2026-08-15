@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="170" viewBox="0 0 320 170" role="img" aria-label="Most used languages">
+  <style>
+    .title{font:600 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#24292f}.label{font:12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#57606a}.small{font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#57606a}
+    @media (prefers-color-scheme:dark){.title{fill:#f0f6fc}.label,.small{fill:#9da7b3}}
+  </style>
+  <text x="16" y="22" class="title">Most Used Languages</text>
+  <text x="16" y="39" class="small">Authored code changes · public commits</text>
+  <circle cx="160" cy="85" r="5" fill="#EAB308"/>
+  <text x="160" y="112" text-anchor="middle" class="label">607 commits ready to analyze</text>
+  <text x="160" y="134" text-anchor="middle" class="small">Updates after the first workflow run</text>
+</svg>

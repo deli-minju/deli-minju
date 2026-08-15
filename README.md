@@ -1,46 +1,34 @@
 <!-- Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f7971e,100:ffd200&height=180&section=header&text=%20&animation=fadeIn" />
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=blur&color=0:FFFDF2,50:FFF3C4,100:FFE69A&height=180&section=header&text=minju.log&fontSize=46&fontColor=24292F&animation=fadeIn&fontAlignY=42&desc=probably%20building%20something.&descSize=17&descAlignY=65"
+  alt="minju.log — probably building something."
+/>
 
-<br/>
-
-<!-- Typing intro -->
-<p align="center">
-  <a href="https://github.com/deli-minju">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Gowun+Dodum&weight=700&size=26&pause=1200&color=F5A623&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+minju+%F0%9F%91%8B;Everyone+calls+me+Manju+%F0%9F%8D%9E;" alt="Typing SVG" />
-  </a>
-</p>
-
-<br/>
-
----
-
-<br/>
-
-<!-- Fun fact / 한 줄 자기소개 -->
+<!-- 3D Contributions · Northern Hemisphere season -->
 <div align="center">
+  <img width="100%" src="./profile-3d-contrib/profile-season-animate.svg" alt="3D contribution calendar" />
+</div>
 
-### ✨ About Me
+<br/><br/>
 
-> **"Happily Ever After"**
-
+<div align="center">
+  🍞<br/>
+  <sub><strong>ABOUT</strong></sub><br/>
+  <sub>manju + minju = deli-minju.</sub>
+  <br/><br/><br/>
+  <sub><strong>🔭 CURRENTLY</strong></sub><br/>
+  <sub>
+    UMC 10th — PLIMAP (Spring Boot)<br/>
+    VCMI Lab. — Undergraduate Researcher<br/>
+    Dept. Dev Club — Committee<br/>
+    Graduation Project — GACHI (Python, Spring Boot)
+  </sub>
 </div>
 
 <br/>
 
-```
-🎓  Seoul Women's University · Software Convergence
-🔭  Currently: UMC 10th · Spring Boot | VCMI Lab. Undergraduate Researcher | Dept. Dev Club Committee | Graduation Project
-🌱  Learning: Spring Boot · Node.js · Medical VLM
-⚡  Fun fact: My nickname is "Manju" — even my GitHub username (deli-minju) comes from it 🍞
-```
-
-<br/>
-
----
-
-<br/>
-
-## 🛠 Tech Stack
+## 🛠︎ Tech Stack
 
 <div align="center">
 
@@ -50,7 +38,6 @@
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
@@ -74,46 +61,16 @@
 
 <br/>
 
----
-
-<br/>
-
-## 📅 Experience & Projects
-
-```
-👥 2025.03 – 2025.12  |  Dept. Dev Club · Frontend Part      |  LookToday        |  React
-💻 2025.10 – 2025.12  |  Personal Project                    |  LimeLight (Web)  |  PHP · MySQL · HTML · CSS · JS
-💻 2025.10 – 2025.12  |  Personal Project                    |  LimeLight (App)  |  Android · PHP · MySQL
-🔥 2026.01 –          |  Dept. Dev Club · Backend Committee  |  DonWorry         |  Node.js
-🔬 2026.02 –          |  VCMI Lab. Undergraduate Researcher                      |  Visual Computing & Medical Imaging Lab.
-👥 2026.03 –          |  UMC 10th · Spring Boot Part
-🎓 2026.03 –          |  Graduation Project                  |  GACHI            |  Spring Boot · PostgreSQL · Python
-```
-
-<br/>
-
----
-
-<br/>
-
-## 📊 GitHub Stats
+## <img src="./assets/chart.svg" width="22" height="22" alt="" /> GitHub Stats
 
 <div align="center">
-  <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=deli-minju&show_icons=true&title_color=F5A623&icon_color=F5A623&text_color=586069&bg_color=fffdf5&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=deli-minju&layout=compact&title_color=F5A623&text_color=586069&bg_color=fffdf5&hide_border=true" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=deli-minju&theme=solarized-light&ring=F5A623&fire=FFD166&currStreakLabel=F5A623&background=fffdf5&hide_border=true" alt="GitHub Streak" />
+  <img width="48%" src="./profile/top-languages.svg" alt="Top Languages" />
+  <img width="48%" src="./profile/streak.svg" alt="GitHub Streak" />
 </div>
 
 <br/>
 
----
-
-<br/>
-
-## 🐾 My Farm
+## 🐾︎ My Farm
 
 <div align="center">
   <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=deli-minju&utm_content=farm">
@@ -123,16 +80,7 @@
 
 <br/>
 
----
-
-<br/>
-
-<!-- 방문자 카운터 -->
+<!-- Visitor counter -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=deli-minju&style=for-the-badge&color=F5A623&label=VISITORS" />
+  <img src="https://komarev.com/ghpvc/?username=deli-minju&style=for-the-badge&color=F2C94C&label=VISITORS" alt="Profile visitors" />
 </div>
-
-<br/>
-
-<!-- Footer wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ffd200,100:f7971e&height=120&section=footer" />
