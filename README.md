@@ -1,10 +1,16 @@
 <!-- Header · GitHub light/dark theme-aware -->
-![minju.log — probably building something.](./assets/header-light.svg#gh-light-mode-only)
-![minju.log — probably building something.](./assets/header-dark.svg#gh-dark-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
+  <img alt="minju.log — probably building something." src="./assets/header-light.svg" width="100%">
+</picture>
 
 <!-- 3D Contributions · Northern Hemisphere season -->
-![3D contribution calendar](./profile-3d-contrib/profile-season-animate.svg#gh-light-mode-only)
-![3D contribution calendar](./profile-3d-contrib/profile-night-rainbow.svg#gh-dark-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg">
+  <img alt="3D contribution calendar" src="./profile-3d-contrib/profile-season-animate.svg" width="100%">
+</picture>
 
 <br/><br/>
 
@@ -54,10 +60,20 @@
 
 <br/>
 
-## ▂▅▇ GitHub Stats
+<h2>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-icon-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/stats-icon-light.svg">
+    <img alt="" src="./assets/stats-icon-light.svg" width="22" height="22" align="absmiddle">
+  </picture>
+  GitHub Stats
+</h2>
 
-![GitHub statistics](./profile/stats.svg#gh-light-mode-only)
-![GitHub statistics](./profile/stats-dark.svg#gh-dark-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile/stats.svg">
+  <img alt="GitHub statistics" src="./profile/stats.svg" width="100%">
+</picture>
 
 <br/>
 

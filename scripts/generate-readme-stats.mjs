@@ -131,7 +131,7 @@ function escapeXml(value) {
 
 const cardThemes = {
   light: { primary: "#24292F", secondary: "#57606A", remainder: "#D0D7DE" },
-  dark: { primary: "#F0F6FC", secondary: "#9DA7B3", remainder: "#30363D" },
+  dark: { primary: "#F0F6FC", secondary: "#C9D1D9", remainder: "#30363D" },
 };
 
 function cardStyles(theme) {

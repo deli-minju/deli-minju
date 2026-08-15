@@ -2,8 +2,8 @@
       <style>
     .title{font:600 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#F0F6FC}
     .value{font:600 23px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#F0F6FC}
-    .label{font:12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#9DA7B3}
-    .small{font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#9DA7B3}
+    .label{font:12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#C9D1D9}
+    .small{font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#C9D1D9}
   </style>
       <text x="16" y="22" class="title">Most Used Languages</text>
       <text x="16" y="39" class="small">Authored code changes · public commits</text>
