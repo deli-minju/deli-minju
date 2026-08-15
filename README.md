@@ -1,16 +1,18 @@
 <!-- Header · GitHub light/dark theme-aware -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
+<a href="#gh-light-mode-only">
   <img alt="minju.log — probably building something." src="./assets/header-light.svg" width="100%">
-</picture>
+</a>
+<a href="#gh-dark-mode-only">
+  <img alt="minju.log — probably building something." src="./assets/header-dark.svg" width="100%">
+</a>
 
 <!-- 3D Contributions · Northern Hemisphere season -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg">
+<a href="#gh-light-mode-only">
   <img alt="3D contribution calendar" src="./profile-3d-contrib/profile-season-animate.svg" width="100%">
-</picture>
+</a>
+<a href="#gh-dark-mode-only">
+  <img alt="3D contribution calendar" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%">
+</a>
 
 <br/><br/>
 
@@ -61,19 +63,20 @@
 <br/>
 
 <h2>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-icon-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/stats-icon-light.svg">
+  <a href="#gh-light-mode-only">
     <img alt="" src="./assets/stats-icon-light.svg" width="22" height="22" align="absmiddle">
-  </picture>
+  </a><a href="#gh-dark-mode-only">
+    <img alt="" src="./assets/stats-icon-dark.svg" width="22" height="22" align="absmiddle">
+  </a>
   GitHub Stats
 </h2>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./profile/stats.svg">
+<a href="#gh-light-mode-only">
   <img alt="GitHub statistics" src="./profile/stats.svg" width="100%">
-</picture>
+</a>
+<a href="#gh-dark-mode-only">
+  <img alt="GitHub statistics" src="./profile/stats-dark.svg" width="100%">
+</a>
 
 <br/>
 
