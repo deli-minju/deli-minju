@@ -32,7 +32,7 @@
       <text x="53" y="88" text-anchor="middle" class="value">995</text>
       <text x="53" y="112" text-anchor="middle" class="label">Contributions</text>
       <circle cx="160" cy="82" r="34" fill="none" stroke="#EAB308" stroke-width="4"/>
-      <text x="160" y="89" text-anchor="middle" class="value">1</text>
+      <text x="160" y="89" text-anchor="middle" class="value">0</text>
       <text x="160" y="132" text-anchor="middle" class="label">Current Streak</text>
       <text x="267" y="88" text-anchor="middle" class="value">15</text>
       <text x="267" y="112" text-anchor="middle" class="label">Longest Streak</text>
