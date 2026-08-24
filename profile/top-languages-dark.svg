@@ -7,14 +7,14 @@
   </style>
       <text x="16" y="22" class="title">Most Used Languages</text>
       <text x="16" y="39" class="small">Authored code changes · public commits</text>
-      <g transform="translate(0 9)"><rect x="16" y="43" width="179.48" height="8" fill="#B07219"/><rect x="195.48368530981665" y="43" width="68.98" height="8" fill="#F1E05A"/><rect x="264.4682292875377" y="43" width="14.29" height="8" fill="#4F5D95"/><rect x="278.75349268971917" y="43" width="11.16" height="8" fill="#A97BFF"/><rect x="289.915247157113" y="43" width="9.53" height="8" fill="#3572A5"/><rect x="299.44618240891157" y="43" width="4.55" height="8" fill="#30363D"/></g>
+      <g transform="translate(0 9)"><rect x="16" y="43" width="178.35" height="8" fill="#B07219"/><rect x="194.35234068721653" y="43" width="70.37" height="8" fill="#F1E05A"/><rect x="264.7174110231378" y="43" width="14.20" height="8" fill="#4F5D95"/><rect x="278.91262971788757" y="43" width="11.09" height="8" fill="#A97BFF"/><rect x="290.00402798062873" y="43" width="9.47" height="8" fill="#3572A5"/><rect x="299.4748866169574" y="43" width="4.53" height="8" fill="#30363D"/></g>
       <g><circle cx="21" cy="72" r="4" fill="#B07219"/>
         <text x="32" y="76" class="label">Java</text>
-        <text x="304" y="76" text-anchor="end" class="small">62.3%</text><circle cx="21" cy="92" r="4" fill="#F1E05A"/>
+        <text x="304" y="76" text-anchor="end" class="small">61.9%</text><circle cx="21" cy="92" r="4" fill="#F1E05A"/>
         <text x="32" y="96" class="label">JavaScript</text>
-        <text x="304" y="96" text-anchor="end" class="small">24.0%</text><circle cx="21" cy="112" r="4" fill="#4F5D95"/>
+        <text x="304" y="96" text-anchor="end" class="small">24.4%</text><circle cx="21" cy="112" r="4" fill="#4F5D95"/>
         <text x="32" y="116" class="label">PHP</text>
-        <text x="304" y="116" text-anchor="end" class="small">5.0%</text><circle cx="21" cy="132" r="4" fill="#A97BFF"/>
+        <text x="304" y="116" text-anchor="end" class="small">4.9%</text><circle cx="21" cy="132" r="4" fill="#A97BFF"/>
         <text x="32" y="136" class="label">Kotlin</text>
         <text x="304" y="136" text-anchor="end" class="small">3.9%</text><circle cx="21" cy="152" r="4" fill="#3572A5"/>
         <text x="32" y="156" class="label">Python</text>
