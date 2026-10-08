@@ -7,10 +7,10 @@
   </style>
       <text x="16" y="22" class="title">Most Used Languages</text>
       <text x="16" y="39" class="small">Authored code changes · public commits</text>
-      <g transform="translate(0 9)"><rect x="16" y="43" width="172.32" height="8" fill="#B07219"/><rect x="188.32289877555544" y="43" width="73.81" height="8" fill="#F1E05A"/><rect x="262.1299795002493" y="43" width="14.02" height="8" fill="#3572A5"/><rect x="276.14781982381294" y="43" width="12.79" height="8" fill="#4F5D95"/><rect x="288.93700482021165" y="43" width="9.99" height="8" fill="#A97BFF"/><rect x="298.92980220510833" y="43" width="5.07" height="8" fill="#D0D7DE"/></g>
+      <g transform="translate(0 9)"><rect x="16" y="43" width="172.39" height="8" fill="#B07219"/><rect x="188.39175514611222" y="43" width="73.76" height="8" fill="#F1E05A"/><rect x="262.1549024765016" y="43" width="14.01" height="8" fill="#3572A5"/><rect x="276.16439873198686" y="43" width="12.78" height="8" fill="#4F5D95"/><rect x="288.94597101288775" y="43" width="9.99" height="8" fill="#A97BFF"/><rect x="298.93282022176385" y="43" width="5.07" height="8" fill="#D0D7DE"/></g>
       <g><circle cx="21" cy="72" r="4" fill="#B07219"/>
         <text x="32" y="76" class="label">Java</text>
-        <text x="304" y="76" text-anchor="end" class="small">59.8%</text><circle cx="21" cy="92" r="4" fill="#F1E05A"/>
+        <text x="304" y="76" text-anchor="end" class="small">59.9%</text><circle cx="21" cy="92" r="4" fill="#F1E05A"/>
         <text x="32" y="96" class="label">JavaScript</text>
         <text x="304" y="96" text-anchor="end" class="small">25.6%</text><circle cx="21" cy="112" r="4" fill="#3572A5"/>
         <text x="32" y="116" class="label">Python</text>
