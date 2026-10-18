@@ -8,18 +8,18 @@
   </style>
       <text x="16" y="22" class="title">Most Used Languages</text>
       <text x="16" y="39" class="small">Authored code changes · public commits</text>
-      <g transform="translate(0 9)"><rect x="16" y="43" width="173.96" height="8" fill="#B07219"/><rect x="189.9624764453669" y="43" width="72.76" height="8" fill="#F1E05A"/><rect x="262.72343447032796" y="43" width="13.82" height="8" fill="#3572A5"/><rect x="276.5425895076057" y="43" width="12.61" height="8" fill="#4F5D95"/><rect x="289.1505038643253" y="43" width="9.85" height="8" fill="#A97BFF"/><rect x="299.00166589289125" y="43" width="5.00" height="8" fill="#30363D"/></g>
+      <g transform="translate(0 9)"><rect x="16" y="43" width="168.70" height="8" fill="#B07219"/><rect x="184.69884399952332" y="43" width="70.56" height="8" fill="#F1E05A"/><rect x="255.25825289000122" y="43" width="22.12" height="8" fill="#3572A5"/><rect x="277.37337623644385" y="43" width="12.23" height="8" fill="#4F5D95"/><rect x="289.59980931950906" y="43" width="9.55" height="8" fill="#A97BFF"/><rect x="299.1529019187225" y="43" width="4.85" height="8" fill="#30363D"/></g>
       <g><circle cx="21" cy="72" r="4" fill="#B07219"/>
         <text x="32" y="76" class="label">Java</text>
-        <text x="304" y="76" text-anchor="end" class="small">60.4%</text><circle cx="21" cy="92" r="4" fill="#F1E05A"/>
+        <text x="304" y="76" text-anchor="end" class="small">58.6%</text><circle cx="21" cy="92" r="4" fill="#F1E05A"/>
         <text x="32" y="96" class="label">JavaScript</text>
-        <text x="304" y="96" text-anchor="end" class="small">25.3%</text><circle cx="21" cy="112" r="4" fill="#3572A5"/>
+        <text x="304" y="96" text-anchor="end" class="small">24.5%</text><circle cx="21" cy="112" r="4" fill="#3572A5"/>
         <text x="32" y="116" class="label">Python</text>
-        <text x="304" y="116" text-anchor="end" class="small">4.8%</text><circle cx="21" cy="132" r="4" fill="#4F5D95"/>
+        <text x="304" y="116" text-anchor="end" class="small">7.7%</text><circle cx="21" cy="132" r="4" fill="#4F5D95"/>
         <text x="32" y="136" class="label">PHP</text>
-        <text x="304" y="136" text-anchor="end" class="small">4.4%</text><circle cx="21" cy="152" r="4" fill="#A97BFF"/>
+        <text x="304" y="136" text-anchor="end" class="small">4.2%</text><circle cx="21" cy="152" r="4" fill="#A97BFF"/>
         <text x="32" y="156" class="label">Kotlin</text>
-        <text x="304" y="156" text-anchor="end" class="small">3.4%</text></g>
+        <text x="304" y="156" text-anchor="end" class="small">3.3%</text></g>
     </g>
     <g transform="translate(340 0)">
       <style>
@@ -29,10 +29,10 @@
     .small{font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#C9D1D9}
   </style>
       <text x="16" y="25" class="title">Contribution Streak</text>
-      <text x="53" y="88" text-anchor="middle" class="value">1,093</text>
+      <text x="53" y="88" text-anchor="middle" class="value">1,105</text>
       <text x="53" y="112" text-anchor="middle" class="label">Contributions</text>
       <circle cx="160" cy="82" r="34" fill="none" stroke="#EAB308" stroke-width="4"/>
-      <text x="160" y="89" text-anchor="middle" class="value">0</text>
+      <text x="160" y="89" text-anchor="middle" class="value">1</text>
       <text x="160" y="132" text-anchor="middle" class="label">Current Streak</text>
       <text x="267" y="88" text-anchor="middle" class="value">15</text>
       <text x="267" y="112" text-anchor="middle" class="label">Longest Streak</text>
