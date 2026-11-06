@@ -3,7 +3,7 @@
   "username": "deli-minju",
   "metric": "changed lines (additions + deletions), excluding merge commits",
   "totals": {
-    "Java": 46276,
+    "Java": 46702,
     "JavaScript": 18502,
     "SQL": 717,
     "Kotlin": 2505,
@@ -730,7 +730,9 @@
     "1a41717cab0e5b9fb44e62a9c6e3ca6f8c4afb0a": true,
     "13fde41bfbba9becd91ad2b41c74a8d1f154a96a": true,
     "2c30f2e584caf5f73299c465f49dfcb1ae1b97ff": true,
-    "8bda586f940baf3272151357f59d25f02ee75037": true
+    "8bda586f940baf3272151357f59d25f02ee75037": true,
+    "75fd12cb239148efcae62f0c5114eea88f114867": true,
+    "4d79c8f1464865584afbf39d756d433d7f6f64f2": true
   },
-  "updatedAt": "2026-11-04T23:52:41.384Z"
+  "updatedAt": "2026-11-06T23:26:06.051Z"
 }
