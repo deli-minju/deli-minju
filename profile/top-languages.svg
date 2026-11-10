@@ -7,7 +7,7 @@
   </style>
       <text x="16" y="22" class="title">Most Used Languages</text>
       <text x="16" y="39" class="small">Authored code changes · public commits</text>
-      <g transform="translate(0 9)"><rect x="16" y="43" width="172.37" height="8" fill="#B07219"/><rect x="188.369647960426" y="43" width="68.29" height="8" fill="#F1E05A"/><rect x="256.65758480603864" y="43" width="21.40" height="8" fill="#3572A5"/><rect x="278.0607707193295" y="43" width="11.83" height="8" fill="#4F5D95"/><rect x="289.8936063872051" y="43" width="9.25" height="8" fill="#A97BFF"/><rect x="299.1391626404891" y="43" width="4.86" height="8" fill="#D0D7DE"/></g>
+      <g transform="translate(0 9)"><rect x="16" y="43" width="172.60" height="8" fill="#B07219"/><rect x="188.60330737060198" y="43" width="68.15" height="8" fill="#F1E05A"/><rect x="256.75325173617773" y="43" width="21.36" height="8" fill="#3572A5"/><rect x="278.11318727698267" y="43" width="11.81" height="8" fill="#4F5D95"/><rect x="289.9221118060085" y="43" width="9.23" height="8" fill="#A97BFF"/><rect x="299.148985151364" y="43" width="4.85" height="8" fill="#D0D7DE"/></g>
       <g><circle cx="21" cy="72" r="4" fill="#B07219"/>
         <text x="32" y="76" class="label">Java</text>
         <text x="304" y="76" text-anchor="end" class="small">59.9%</text><circle cx="21" cy="92" r="4" fill="#F1E05A"/>
