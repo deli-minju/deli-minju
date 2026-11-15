@@ -3,7 +3,7 @@
   "username": "deli-minju",
   "metric": "changed lines (additions + deletions), excluding merge commits",
   "totals": {
-    "Java": 46860,
+    "Java": 46950,
     "JavaScript": 18502,
     "SQL": 717,
     "Kotlin": 2505,
@@ -764,7 +764,17 @@
     "5a0f08ecc6b69fcc4e827b2fe22995571e850e52": true,
     "2784fe9dfaa278f696d5eeb352c6a05fffbc6210": true,
     "5999e105e609ea6d5c4a00035359b5fe80026faf": true,
-    "b5d755d6fde35661604bf62072c40c14b19d6c89": true
+    "b5d755d6fde35661604bf62072c40c14b19d6c89": true,
+    "24ac4042adf5bcc8fec67ec0d3b18d011665a563": true,
+    "3d79be7f4a4f470a5d427cd297d1ac086c5826be": true,
+    "059f9c2f7e72ec6bf6c14abaee693bf5199c4543": true,
+    "ef8ac2e792968f4b44f7764f59310d65a2b158f5": true,
+    "55fc62fb685159c1bb349b113ced5d4a11a66b16": true,
+    "c168691e0ef14b8c84a6b1b7f7a54964e9c66ac3": true,
+    "809589b5e35a95e5f46d46a7e7448513887aef44": true,
+    "7e8d007edc89b9207bddb405fea3621fe27c8937": true,
+    "8ad3b68ca492ab4ef1249371165a40a2f4ab3089": true,
+    "34868366f4a90a1dd962e0bf04b3a444eccf1cd7": true
   },
-  "updatedAt": "2026-11-14T22:41:08.612Z"
+  "updatedAt": "2026-11-15T23:04:58.675Z"
 }
